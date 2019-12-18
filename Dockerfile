@@ -17,6 +17,6 @@ ENV GIT_SHA $VCS_REF
 ENV GOPATH /go
 RUN cd $GOPATH/src/github.com/voronenko/docker-croco-hunter-image && go install -v .
 
-CMD ["docker-sample-image"]
+CMD ["docker-croco-hunter-image"]
 
 EXPOSE 7777
